@@ -1,0 +1,91 @@
+* {
+    scrollbar-width: 0;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  
+  .bgimg1,
+  .bgimg2,
+  .bgimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+  }
+  
+  .bgimg1 {
+    background-image: url(../img/bg1.jpg);
+    min-height: 100%;
+  }
+  
+  .bgimg2 {
+    background-image: url(../img/person.jpg);
+    min-height: 100%;
+  }
+  
+  .bgimg3 {
+    background-image: url(../img/bg4.jpg);
+    min-height: 100%;
+  }
+  
+  .middle {
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  .middlebright {
+    background-color: aqua;
+    padding: 10px;
+    color: #923f3f;
+  }
+  
+  img.me {
+    background-image: url(../img/me.jpg);
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    top: 20vh;
+    width: 200px;
+    border-radius: 100px;
+  }
+  
+  .text {
+    position: absolute;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    top: 60%;
+    width: 100%;
+  }
+  
+  .middledark {
+    background-color: #282e34;
+    padding: 10px;
+    color: #ddd;
+  }
+  
+  p {
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    color: #6feeb9;
+    font-size: 20px;
+    top: 60%;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
